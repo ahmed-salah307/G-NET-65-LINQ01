@@ -83,6 +83,26 @@ foreach (var item in customProducts)
              
              */
             #endregion
+            #region Q7
+
+            /*
+             
+             
+             var indexedProducts = ProductList.Select((p, index) => new { 
+    Index = index + 1, 
+    Name = p.ProductName 
+});
+
+foreach (var item in indexedProducts)
+{
+    Console.WriteLine($"{item.Index}. {item.Name}");
+
+             
+             */
+
+            #endregion
+
+
         }
     }
 }
