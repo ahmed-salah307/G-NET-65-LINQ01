@@ -54,6 +54,18 @@ foreach (var p in productsInRange)
 
 
             #endregion
+            #region Q5
+            /*
+             
+             var filteredProducts = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+
+foreach (var p in filteredProducts)
+{
+    Console.WriteLine(p.ProductName);
+}
+             
+             */
+            #endregion
         }
     }
 }
