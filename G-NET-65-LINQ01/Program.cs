@@ -18,6 +18,18 @@ foreach (var p in seafoodProducts)
              
              */
             #endregion
+            #region Q2
+            /*
+             
+             var productNames = ProductList.Select(p => p.ProductName);
+
+foreach (var name in productNames)
+{
+    Console.WriteLine(name);
+}
+             
+             */
+            #endregion
         }
     }
 }
