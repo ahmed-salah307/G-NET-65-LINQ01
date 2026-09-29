@@ -40,6 +40,20 @@ foreach (var name in productNames)
             }
             */
             #endregion
+            #region Q4
+            /*
+             
+             var productsInRange = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+
+foreach (var p in productsInRange)
+{
+    Console.WriteLine($"Name: {p.ProductName}, Price: {p.UnitPrice}");
+}
+             
+             */
+
+
+            #endregion
         }
     }
 }
