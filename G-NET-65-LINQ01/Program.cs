@@ -119,6 +119,22 @@ foreach (var p in sortedList)
              */
 
             #endregion
+            #region Q9
+
+            /*
+             
+             var beverages = ProductList
+    .Where(p => p.Category == "Beverages")
+    .OrderByDescending(p => p.UnitsInStock);
+
+foreach (var p in beverages)
+{
+    Console.WriteLine($"Name: {p.ProductName}, Stock: {p.UnitsInStock}");
+}
+             
+             */
+
+            #endregion
 
 
         }
