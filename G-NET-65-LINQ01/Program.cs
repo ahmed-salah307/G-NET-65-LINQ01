@@ -150,6 +150,22 @@ foreach (var order in ordersFrom1997)
              */
 
             #endregion
+            #region Q11
+            /*
+             
+             var productWithPosition = ProductList.Select((p, index) => new {
+    Position = index + 1,
+    p.ProductName
+});
+
+foreach (var item in productWithPosition)
+{
+    Console.WriteLine($"{item.Position}: {item.ProductName}");
+}
+             
+             */
+
+            #endregion
 
 
         }
