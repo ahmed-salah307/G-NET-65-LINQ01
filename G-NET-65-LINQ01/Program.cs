@@ -101,6 +101,24 @@ foreach (var item in indexedProducts)
              */
 
             #endregion
+            #region Q8
+
+            /*
+             
+             
+             var sortedList = ProductList
+    .OrderBy(p => p.Category)
+    .ThenByDescending(p => p.UnitPrice);
+
+foreach (var p in sortedList)
+{
+    Console.WriteLine($"Category: {p.Category}, Name: {p.ProductName}, Price: {p.UnitPrice}");
+}
+             
+             
+             */
+
+            #endregion
 
 
         }
