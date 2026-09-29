@@ -135,6 +135,21 @@ foreach (var p in beverages)
              */
 
             #endregion
+            #region Q10
+            /*
+             
+             var ordersFrom1997 = CustomerList
+    .SelectMany(c => c.Orders, (c, o) => new { c.CustomerID, o.OrderDate })
+    .Where(x => x.OrderDate.Year >= 1997);
+
+foreach (var order in ordersFrom1997)
+{
+    Console.WriteLine($"CustomerID: {order.CustomerID}, OrderDate: {order.OrderDate}");
+}
+             
+             */
+
+            #endregion
 
 
         }
