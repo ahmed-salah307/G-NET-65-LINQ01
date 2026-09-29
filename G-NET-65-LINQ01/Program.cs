@@ -166,7 +166,23 @@ foreach (var item in productWithPosition)
              */
 
             #endregion
+            #region Q12
 
+            /*
+             
+             String[] Arr = { "aPPLe", "AbAcUs", "bRaNCH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+var sortedWords = Arr
+    .OrderBy(w => w.Length)
+    .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+foreach (var word in sortedWords)
+{
+    Console.WriteLine(word);
+}
+             
+             */
+            #endregion
 
         }
     }
