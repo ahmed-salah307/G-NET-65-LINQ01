@@ -66,6 +66,23 @@ foreach (var p in filteredProducts)
              
              */
             #endregion
+            #region Q6
+            /*
+             
+             var customProducts = ProductList.Select(p => new {
+    Name = p.ProductName,
+    Price = p.UnitPrice,
+    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+});
+
+foreach (var item in customProducts)
+{
+    Console.WriteLine($"Name: {item.Name}, Price: {item.Price}, Status: {item.StockStatus}");
+}
+             
+             
+             */
+            #endregion
         }
     }
 }
