@@ -183,6 +183,21 @@ foreach (var word in sortedWords)
              
              */
             #endregion
+            #region Q13
+            /*
+             
+             var result = Arr
+    .Where(w => w.Length > 1 && char.ToLower(w[1]) == 'i')
+    .Reverse();
+
+foreach (var item in result)
+{
+    Console.WriteLine(item);
+}
+             
+             */
+
+            #endregion
 
         }
     }
